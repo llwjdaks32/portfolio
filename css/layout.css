@@ -1,0 +1,41 @@
+@charset "utf-8";
+
+header{
+  width: 100%;
+  height: 70px;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  z-index: 10;
+  background: #fff;
+  transition: 0.3s;
+  
+}
+header ul{
+  display: flex;
+  justify-content: right;
+  line-height: 70px;
+}
+header ul li{
+  margin-left: 45px;
+  cursor: pointer;
+  transition: 0.2s;
+  position: relative;
+}
+header ul li::after{
+  content: "";
+  width: 0%;
+  height: 2px;
+  position: absolute;
+  left: 0px;
+  bottom: 18px;
+  background-color: #7F13BD;
+  transition: 0.2s;
+}
+header ul li:hover{
+  color: #7F13BD;
+}
+header ul li:hover::after{
+  width: 100%;
+}
+
