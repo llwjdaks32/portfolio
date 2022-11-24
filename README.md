@@ -20,3 +20,7 @@ _강조글자_
 ### 이미지 삽입하기
 ![다음로고](https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Daum_communication_logo.svg/2560px-Daum_communication_logo.svg.png)
 ![농담곰](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHw3Ut9VuWOuR2PYzJh9pC1NXOoOSnFc3ERg&usqp=CAU)
+
+---
+### 이미지 링크걸기
+[![다음로고](https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Daum_communication_logo.svg/2560px-Daum_communication_logo.svg.png)](https://www.daum.net/)
