@@ -26,6 +26,16 @@ section{
 .sec1 .inner{
   position: relative;
 }
+.bottom_txt{
+  position: absolute;
+  width: 450px;
+  bottom: 50px;
+  left: 0px;
+  font-size: 12px;
+  line-height: 20px;
+  animation: ani4;
+  animation-duration: 2.2s;
+}
 .sec1 .inner .txt_box{
   position: absolute;
   top: 40%;
