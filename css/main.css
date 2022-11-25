@@ -39,7 +39,7 @@ section{
 }
 .sec1 .inner .txt_box p span{
   font-weight: 600;
-  color: #BCE019;
+  color: #F6D305;
 }
 .sec1 .inner .txt_box p:nth-child(1){
   animation: ani4;
@@ -77,7 +77,7 @@ section{
   width: 50px;
   height: 50px;
   border-radius: 50%;
-  background-color: rgba(175, 207, 32, 0.8);
+  background-color: #E7B90E;
   animation: ani1;
   transform: translateX(25px);
   animation-duration: 1.2s;
@@ -95,7 +95,7 @@ section{
   width: 100px;
   height: 100px;
   border-radius: 50%;
-  background-color: rgba(175, 207, 32, 0.6);
+  background-color: #F6D305;
   animation: ani2;
   animation-duration: 1.5s;
   transform: translateX(75px);
@@ -113,7 +113,7 @@ section{
   width: 150px;
   height: 150px;
   border-radius: 50%;
-  background-color: rgba(175, 207, 32, 0.4);
+  background-color: #FFEAC5;
   transform: translateX(125px);
   animation: ani3;
   animation-duration: 1.8s;
@@ -133,7 +133,7 @@ section{
   font-size: 60px;
   font-weight: bold;
   line-height: 75px;
-  color: #7F13BD;
+  color: #2364A4;
   animation: ani5;
   animation-duration: 2.4s;
 }
@@ -175,7 +175,7 @@ section{
 .sec2{
   width: 100%;
   height:  calc(100vh - 70px);
-  background-color: #7F13BD;
+  background-color: #2364A4;
 }
 .sec2 .inner .inner_wrap{
   width: 100%;
@@ -195,7 +195,7 @@ section{
   margin-bottom: 15px;
 }
 .sec2 .inner .inner_wrap div:nth-child(1) dd span{
-  color: #BCE019;
+  color: #F6D305;
 }
 .sec2 .inner .inner_wrap div:nth-child(1) dd{
   font-size: 18px;
@@ -217,9 +217,9 @@ section{
   display: inline-block;
   padding: 15px 20px;
   font-size: 18px;
-  color:  #7F13BD;
+  color:  #2364A4;
   font-weight: bold;
-  background-color: #BCE019;
+  background-color: #F6D305;
   border-radius: 24px;
   margin-bottom: 15px;
 }
@@ -237,9 +237,9 @@ section{
   width: 50px;
   padding: 15px 20px;
   font-size: 18px;
-  color:  #7F13BD;
+  color:  #2364A4;
   font-weight: bold;
-  background-color: #BCE019;
+  background-color: #F6D305;
   border-radius: 24px;
   margin-bottom: 30px;
 }
@@ -261,7 +261,7 @@ section{
   width: 0px;
   height: 20px;
   border-radius: 15px;
-  background-color: #BCE019;
+  background-color: #F6D305;
 }
 .sec2 .inner .skill dd img{
   position: relative;
@@ -286,7 +286,7 @@ section{
   display: block;
   width: 100%;
   height:  calc(100vh - 70px);
-  background-color: #BCE019;
+  background-color: #E7B90E;
   position: relative;
   overflow: hidden;
 }
@@ -397,6 +397,12 @@ section{
   border-radius: 50%;
   margin-left:15px;
 }
+.sec3 article:nth-child(2){
+  background-color: #FFEAC5;
+}
+.sec3 article:nth-child(3){
+  background-color: #F6D305;
+}
 .sec3 article:nth-child(1) .color span{
   background-color: #D4261F;
 }
@@ -458,7 +464,7 @@ section{
   text-align: center;
   font-size: 40px;
   margin-bottom: 100px;
-  color: #7F13BD;
+  color: #2364A4;
 }
 
 .sec4 .inner .swiper{
@@ -520,7 +526,7 @@ section{
 .swiper-button-prev{top: 50% !important; left: 150px !important;}
 .swiper-button-next{top: 50% !important; right: 150px !important;}
 .swiper-button-prev:after,.swiper-button-next:after{
-  color: #7F13BD;
+  color: #2364A4;
 }
 
 /* 스크롤 애니메이션 */
@@ -557,3 +563,32 @@ section{
 .show .back-position.delay-1 { transition-delay:.3s;}
 .show .back-position.delay-2 { transition-delay:.6s;}
 .show .back-position.delay-3 { transition-delay:.9s;}
+
+
+/* 모달창 */
+.modal{
+  display: none;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(51, 51, 51, 0.411);
+  z-index: 1000;
+}
+.modal i{
+  position: fixed;
+  z-index: 1000;
+  font-size: 50px;
+  right: 100px;
+  top: 30px;
+}
+.modal .inner{
+  overflow: scroll;
+  overflow-x: hidden;
+  background-color: #fff;
+}
+.modal .inner img{
+  width: 100%;
+}
+.scroll_hidden{
+  overflow-y: hidden;
+}

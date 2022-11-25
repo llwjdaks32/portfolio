@@ -29,11 +29,11 @@ header ul li::after{
   position: absolute;
   left: 0px;
   bottom: 18px;
-  background-color: #7F13BD;
+  background-color: #2364A4;
   transition: 0.2s;
 }
 header ul li:hover{
-  color: #7F13BD;
+  color: #2364A4;
 }
 header ul li:hover::after{
   width: 100%;

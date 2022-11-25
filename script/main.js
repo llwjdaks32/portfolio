@@ -45,4 +45,14 @@ $(document).ready(function(){
         .setClassToggle(spyEl, 'show') //show클래스를 적용하거나 해제하기
         .addTo(new ScrollMagic.Controller()); //컨트롤러에 장면을 할당한다
     });
+
+
+    $('.modal_btn').click(function(){
+        $('.modal').css('display','block');
+        $('body').addClass('scroll_hidden');
+    });
+    $('.modal i').click(function(){
+        $('.modal').css('display','none');
+        $('body').removeClass('scroll_hidden');
+    });
     })
