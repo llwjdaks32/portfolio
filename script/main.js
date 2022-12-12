@@ -47,8 +47,16 @@ $(document).ready(function(){
     });
 
 
-    $('.modal_btn').click(function(){
-        $('.modal').css('display','block');
+    $('.m_1').click(function(){
+        $('.style1').css('display','block');
+        $('body').addClass('scroll_hidden');
+    });
+    $('.m_2').click(function(){
+        $('.style2').css('display','block');
+        $('body').addClass('scroll_hidden');
+    });
+    $('.m_3').click(function(){
+        $('.style3').css('display','block');
         $('body').addClass('scroll_hidden');
     });
     $('.modal i').click(function(){
@@ -56,3 +64,5 @@ $(document).ready(function(){
         $('body').removeClass('scroll_hidden');
     });
     })
+
+    
